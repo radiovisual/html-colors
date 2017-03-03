@@ -27,6 +27,7 @@ htmlColors.names();
 htmlColors.hex('pink');
 //=> '#FFC0CB'
 
+// Get a random HTML color name
 htmlColors.random();
 //=> 'antiquewhite'
 
