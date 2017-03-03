@@ -1,6 +1,6 @@
 # html-colors [![Build Status](https://travis-ci.org/radiovisual/html-colors.svg?branch=master)](https://travis-ci.org/radiovisual/html-colors)
 
-> Get a list of all the HTML color names and their hex values.
+> Get a list of all the HTML and CSS color names and their hex values.
 
 The color list is just a [JSON file](html-colors.json) and can be used wherever.
 

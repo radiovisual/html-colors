@@ -1,7 +1,7 @@
 {
   "name": "html-colors",
-  "version": "0.0.2",
-  "description": "Get a list of all the HTML color names and their hex values.",
+  "version": "0.0.3",
+  "description": "Get a list of all the HTML and CSS color names and their hex values.",
   "license": "MIT",
   "repository": "radiovisual/html-colors",
   "author": {
