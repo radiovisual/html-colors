@@ -13,11 +13,12 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && ava",
+    "build": "babel src --out-dir lib --copy-files"
   },
+  "main": "lib/index.js",
   "files": [
-    "index.js",
-    "html-colors.json"
+    "lib"
   ],
   "keywords": [
     "values",
@@ -37,6 +38,9 @@
   },
   "devDependencies": {
     "ava": "^0.17.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
     "xo": "^0.17.0"
   },
   "xo": {

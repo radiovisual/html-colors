@@ -1,6 +1,6 @@
 import test from 'ava';
-import colors from './html-colors';
-import fn from './';
+import colors from '../src/html-colors';
+import fn from '../src';
 
 test('all', t => {
 	const all = fn.all();
