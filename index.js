@@ -24,8 +24,8 @@ function random() {
 }
 
 module.exports = {
-	names,
-	hex,
-	all,
-	random
+	names: names,
+	hex: hex,
+	all: all,
+	random: random
 };
