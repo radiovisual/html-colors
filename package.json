@@ -40,6 +40,9 @@
     "xo": "^0.17.0"
   },
   "xo": {
-    "esnext": true
+    "esnext": true,
+    "rules": {
+        "object-shorthand": ["error", "never"]
+    }
   }
 }
