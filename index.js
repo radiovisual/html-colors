@@ -1,6 +1,6 @@
 'use strict';
 const uniqueRandomArray = require('unique-random-array');
-const htmlColors = require('./html-colors');
+const htmlColors = require('./html-colors.json');
 
 function names() {
 	return Object.keys(htmlColors);
