@@ -17,11 +17,11 @@ const htmlColors = require('html-colors');
 
 // Get an object with all color names and hex values
 htmlColors.all();
-//=> {lightgreen: '#90EE90', mediumpurple: '#9370DB',...}
+//=> { lightgreen: '#90EE90', mediumpurple: '#9370DB', ... }
 
 // Get an array of all the color names
 htmlColors.names();
-//=> ['lightgreen', 'mediumpurple', 'darkviolet', ...]
+//=> [ 'lightgreen', 'mediumpurple', 'darkviolet', ... ]
 
 // Get the hex color from a color name
 htmlColors.hex('pink');
@@ -30,7 +30,6 @@ htmlColors.hex('pink');
 // Get a random HTML color name
 htmlColors.random();
 //=> 'antiquewhite'
-
 ```
 
 
@@ -42,7 +41,7 @@ Get an object with all the HTML color names and their HEX values.
 
 ```js
 htmlColors.all();
-//=> {lightgreen: '#90EE90', mediumpurple: '#9370DB',...}
+//=> { lightgreen: '#90EE90', mediumpurple: '#9370DB', ... }
 ```
 
 ### .names()
@@ -51,7 +50,7 @@ Get an array with all the HTML color names.
 
 ```js
 htmlColors.names();
-//=> ['lightgreen', 'mediumpurple', 'darkviolet', ...]
+//=> [ 'lightgreen', 'mediumpurple', 'darkviolet', ... ]
 ```
 
 ### .hex(colorname)
