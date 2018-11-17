@@ -24,6 +24,11 @@ test('hex', t => {
 	}, 'htmlColors.hex expected a string, got undefined');
 });
 
+test('hex with uppercase characters', t => {
+	const yellow = fn.hex('YELLow');
+	t.is(yellow, '#FFFF00');
+});
+
 test('random', t => {
 	const random = fn.random();
 	t.true(Object.keys(colors).indexOf(random) > -1);

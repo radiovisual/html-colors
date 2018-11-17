@@ -10,7 +10,7 @@ function hex(name) {
 	if (typeof name !== 'string') {
 		throw new TypeError('htmlColors.hex expected a string, got ' + typeof name);
 	}
-	return htmlColors[name];
+	return htmlColors[name.toLowerCase()];
 }
 
 function all() {
