@@ -27,6 +27,10 @@ htmlColors.names();
 htmlColors.hex('pink');
 //=> '#FFC0CB'
 
+//Get the rgb value from a color name
+htmlColors.rgb('white');
+//=> {r: '255', g: '255', b: '255'}
+
 // Get a random HTML color name
 htmlColors.random();
 //=> 'antiquewhite'
@@ -62,6 +66,17 @@ Input Type: `string`<br/>
 ```js
 htmlColors.hex('hotpink');
 //=> '#FF69B4'
+```
+
+### .rgb(colorname)
+
+Get the rgb color value from a color name.
+
+Input Type: `string`<br/>
+
+```js
+htmlColors.hex('white');
+//=> {r: '255', g: '255', b: '255'}
 ```
 
 ### .random()
