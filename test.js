@@ -9,6 +9,11 @@ test('all', t => {
 	t.is(Object.keys(colors).length, Object.keys(all).length);
 });
 
+test('rgb', t => {
+	const black = fn.rgb('black');
+	t.is({ r: 0, g: 0, b: 0 });
+});
+
 test('names', t => {
 	const names = fn.names();
 	t.true(Array.isArray(names));
