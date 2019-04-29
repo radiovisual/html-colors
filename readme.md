@@ -75,7 +75,7 @@ Get the rgb color value from a color name.
 Input Type: `string`<br/>
 
 ```js
-htmlColors.hex('white');
+htmlColors.rgb('white');
 //=> {r: '255', g: '255', b: '255'}
 ```
 
