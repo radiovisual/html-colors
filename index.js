@@ -13,6 +13,17 @@ function hex(name) {
 	return htmlColors[name.toLowerCase()];
 }
 
+function rgb(name) {
+	if (typeof name !== 'string') {
+		throw new TypeError('htmlColors.hex expected a string, got ' + typeof name);
+	}
+	const hex = htmlColors[name.toLowerCase()];
+	const rgb = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+	return {r: parseInt(rgb[1], 16),
+		g: parseInt(rgb[2], 16),
+		b: parseInt(rgb[3], 16)}
+}
+
 function all() {
 	return htmlColors;
 }
@@ -26,6 +37,7 @@ function random() {
 module.exports = {
 	names: names,
 	hex: hex,
+	rgb: rgb,
 	all: all,
 	random: random
 };
